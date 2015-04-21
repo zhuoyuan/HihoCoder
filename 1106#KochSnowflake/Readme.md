@@ -8,7 +8,7 @@ Let S(i,n) be the i-th side of Kn. The generation of si,n is defined as the smal
 
 Given a side S(i,n), your task is to calculate its generation.
 
-![example](../1106%KochSnowflake/snowflake.png)
+![example](../1106%23KochSnowflake/snowflake.png)
 
 ##### **input**
 The input contains several test cases.
