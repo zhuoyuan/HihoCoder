@@ -10,7 +10,7 @@
 
 利用矩阵乘法求解，将(a, b)->(b, a + b)很简单，变化矩阵(0, 1; 1, 1)，则有
 
-![matrix_multi_transfer](./matrix.png)
+![matrix_multi_transfer](../1143%Dominocoverage/matrix.png)
 
 事实上，原问题变为求 a^n，将n表示成二进制数共有log(n)位，因此可以在O(log(n))时间内求得结果
 
