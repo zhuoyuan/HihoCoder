@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
                     if(s[i] == s[j])
                         c[i][j] = c[i + 1][j] + c[i][j - 1] + 1;
                     else
-                        c[i][j] = c[i + 1][j] + c[i][j - 1] - c[i + 1][j - 1];
+                        c[i][j] = c[i + 1][j] + c[i][j - 1] - c[i + 1][j - 1]; /* c[i][j] may be negative number*/
                     c[i][j] %= 100007;
                 }
             }
