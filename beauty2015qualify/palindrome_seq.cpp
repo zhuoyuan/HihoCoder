@@ -28,6 +28,6 @@ int main(int argc, char *argv[]) {
                 }
             }
         }
-        cout << "Case #" << r + 1 << ": " << c[0][len - 1] << endl;
+        cout << "Case #" << r + 1 << ": " << (c[0][len - 1] % 1000007 + 100007) % 100007 << endl;
     }
 }
